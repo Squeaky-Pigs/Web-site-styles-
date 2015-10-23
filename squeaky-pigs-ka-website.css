@@ -1,0 +1,245 @@
+#wrnng{
+    position:fixed;
+    left:19px;
+    top:262px;
+    background-color:rgb(66, 142, 255);
+    border-radius:28px;
+    padding:9px;
+    box-shadow:inset 0px 0px 10px black;
+}
+#slideshow{
+     position: absolute;
+    left: 24%;
+    top: 698px;
+}
+.imgc{
+   box-shadow:0px 0px 20px blue;
+    
+    border-radius:37px 25px;
+}
+::selection {
+    background: rgba(0, 0, 0, 0.25);
+}
+#badges{
+    
+     background-image: -webkit-gradient(linear,left top,left bottom,from(rgb(0, 0, 0)),to(rgb(41, 106, 204))) ;
+     padding-top:50px;
+     margin:17px;
+     border-radius:124px;
+     height:300px;
+}
+.ba{
+    box-shadow:none;
+    opacity: 0.9;
+    filter: alpha(opacity=172);
+}
+.ba:hover{
+    transition:1s;
+     opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+body {
+    background: rgb(41, 106, 204);
+    
+    color: rgb(255, 255, 255);
+    
+    font-family: 'Segoe print', cursive , comic sans ms,sans-serif;
+    font-size: 15px;
+    list-style-type: square;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    transition:1s;
+     color: rgb(192, 212, 252);
+     text-shadow:0px 0px 5px blue;
+}
+
+h1 {
+    font-size: 24pt;
+    font-weight: 00;
+    padding-top: 10px;
+    transition-duration: 0.25s;
+    
+}
+
+p {
+    font-weight: 00;
+    padding-left: 100px;
+    padding-right: 100px;
+    transition-duration: 0.25s;
+    
+}
+
+#banner {
+    background: rgb(143, 197, 255);
+    background-image:url(https://ka-perseus-images.s3.amazonaws.com/dbf89ed41a7fbdff0c972d6c8f2e43571ce71dcd.jpg);
+     background-size: 639px 143px;
+    color: rgb(217, 37, 24);
+    font-family:'Tahoma',sans serif;
+    font-size: 70px;
+    letter-spacing: -2px;
+    padding-bottom: 5px;
+    text-shadow: 0px 5px 0px rgb(255, 182, 36);
+    transition-duration: 0.4s;
+    width: 100%;
+    height:138px;
+    
+    
+}
+
+#banner:hover {
+    letter-spacing: 0px;
+    text-shadow: 0px 0px 0px rgb(255, 170, 0);
+    
+}
+
+#banner #s {
+    font-family: 'Bangers', sans-serif;
+    font-size: 86px;
+   
+}
+
+#banner #tm {
+    font-family:'Arial Black',sans serif;
+    font-size: 30px;
+    vertical-align: text-top;
+}
+
+#banner #sub {
+    font-family: 'Bangers', sans-serif;
+    background-color:orange;
+    font-size: 10px;
+    letter-spacing: 3px;
+    line-height: 41px;
+    text-shadow: none;
+    padding:0px;
+    border-radius:20px;
+    box-shadow:0px 0px 20px black;
+    position:absolute;
+    left:139px;
+    top:91px;
+}
+
+marquee {
+    background: rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    padding: 2px;
+    text-align: center;
+   
+}
+
+marquee img {
+    height: 32px;
+    vertical-align: middle;
+}
+
+.avatar {
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    height: 142px;
+    margin-top: 23px;
+    padding: 10px;
+    width: 150px;
+}
+
+#list {
+    transition-duration: 0.25s;
+}
+
+#list a {
+    text-decoration: none;
+}
+
+#ads {
+    background: green;
+    border-radius: 13px;
+    font-size: 28px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 20px;
+    text-transform: uppercase;
+    width: 580px;
+
+}
+
+#ads #sub {
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 26px;
+    padding-left: 18px;
+    padding-right: 23px;
+    
+}
+
+#ads details summary {
+    padding-bottom: 20px;
+}
+
+#ads #scroll {
+    height: 174px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#ads #ad {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+#ads #ad:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#ads #ad a {
+    text-decoration: none;
+     font-family: 'Bangers', sans-serif;
+}
+
+#ads #ad img {
+    border: 1px dotted rgba(255, 255, 255, 0.5);
+    vertical-align: middle;
+    margin: 2px;
+    width: 46px;
+}
+
+
+
+.links {
+    background: rgb(217, 37, 24);
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    text-shadow: none;
+    width: 100%;
+     
+}
+
+.links a {
+    text-decoration: none;
+}
+
+#footer {
+    background: rgb(255, 182, 36);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    text-shadow: none;
+    width: 100%;
+   
+}
+
+#totop{
+    border-radius:19px 19px;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(red),to(rgb(120, 0, 0))) ;
+    
+    
+}
